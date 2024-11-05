@@ -2,4 +2,29 @@ body {
     background : url(../img/fondo1.jpeg);
     background-size: cover;
     height: 90%;
+
+}
+
+body {
+    color: white; /* Cambia el color del texto general */
+}
+
+h1, h2 {
+    color: lightblue; /* Cambia el color de los títulos */
+}
+
+figure caption {
+    color: lightgray; /* Cambia el color del pie de foto */
+}
+
+.navbar .nav-link {
+    color: white; /* Cambia el color de los enlaces en la barra de navegación */
+}
+
+.navbar .nav-link:hover {
+    color: lightblue; /* Cambia el color de los enlaces al pasar el mouse */
+}
+
+.morning {
+    color: white;
 }
