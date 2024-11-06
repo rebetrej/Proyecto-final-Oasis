@@ -25,6 +25,9 @@ figure caption {
     color: lightblue; /* Cambia el color de los enlaces al pasar el mouse */
 }
 
-.morning {
-    color: white;
-}
+
+/* css para funcionamiento de swipper.js */
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
