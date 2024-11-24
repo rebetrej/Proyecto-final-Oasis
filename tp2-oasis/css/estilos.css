@@ -3,14 +3,3 @@ body {
     background-size: cover;
     height: 90%;
 }
-
-.carousel-item {
-    height: 75vh; 
-}
-
-/* Asegura que la imagen se ajuste al contenedor sin recortes */
-.carousel-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Muestra la imagen completa dentro del contenedor sin recortes */
-}
