@@ -1,5 +1,17 @@
 body {
-    background : url(../img/fondo1.jpeg);
+    background : url(../imagenes/fondo1.jpeg);
     background-size: cover;
     height: 90%;
+}
+.video-container {
+    width: 100%; /* O el tamaño que necesites */
+    height: 300px; /* O el tamaño que prefieras */
+    overflow: hidden; /* Opcional: asegura que no haya desbordamiento */
+    background: black; /* Para evitar bordes blancos si sobra espacio */
+}
+
+.video-container video {
+    width: 50%;
+    height: 60%;
+    object-fit: contain; /* El video se ajusta sin recortarse */
 }
