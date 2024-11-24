@@ -3,3 +3,65 @@ body {
     background-size: cover;
     height: 90%;
 }
+
+figure {
+    width: 100%;
+    height: 70vh; /* Ocupa toda la altura de la ventana */
+    margin: 20px auto; /* Centrado con márgenes */
+    position: relative;
+    overflow: hidden;
+}
+
+video {
+    width: 100%; /* Ajusta el ancho al contenedor */
+    height: 100%; /* Ajusta la altura al contenedor */
+    object-fit: cover; /* Asegura que el video ocupe todo el espacio, aunque se recorte */
+}
+
+
+
+
+
+/* Ajustes para pantallas de 760px o menos */
+@media (max-width: 760px) {
+    .navbar {
+        padding: 2rem 2rem; /* Reduce el padding del navbar */
+    }
+    .nav-link {
+        font-size: 0.9rem; /* Reduce el tamaño del texto de los enlaces */
+    }
+    .navbar-toggler {
+        padding: 0.25rem 0.5rem; /* Reduce el tamaño del botón hamburguesa */
+    }
+    .navbar-nav {
+        text-align: center; /* Centra los enlaces en dispositivos pequeños */
+    }
+    .navbar-nav .nav-item {
+        margin: 5px 0; /* Espacio entre elementos */
+    }
+    figure {
+        width: 100%; /* Ocupa todo el ancho */
+        height: 50vh; /* Reduce la altura para tablets */
+        margin: 10px 0; /* Márgenes más pequeños */
+    }
+
+    video {
+        object-fit: contain; /* Cambia para mostrar el video completo */
+    }
+
+    h1 {
+        font-size: 2rem; /* Reduce ligeramente el tamaño del texto */
+        margin-bottom: 15px; /* Reduce espacio entre elementos */
+    }
+
+    /* Otros ajustes específicos para mobile */
+    body {
+        padding: 0 10px; /* Agrega un margen interno para mejorar la legibilidad */
+    }
+}
+/* Ajustes para pantallas de 450px o menos */
+@media (max-width: 450px) {
+    figure {
+        height: 40vh;
+    }
+}
