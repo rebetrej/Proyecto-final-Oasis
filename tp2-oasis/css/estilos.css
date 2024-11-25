@@ -73,9 +73,18 @@ video {
 } 
 
 
+/* Ajustes para pantallas de 450px o menos */
+@media (max-width: 450px) {
+    figure {
+        height: 20vh;
+    }
+    body {
+        padding: 0 10px; /* Agrega un margen interno para mejorar la legibilidad */  
+    }
+}
 
 /* Ajustes para pantallas de 760px o menos */
-@media (max-width: 760px) {
+@media (max-width: 790px) {
     .navbar {
         padding: 2rem 2rem; /* Reduce el padding del navbar */
     }
@@ -93,7 +102,7 @@ video {
     }
     figure {
         width: 100%; /* Ocupa todo el ancho */
-        height: 50vh; /* Reduce la altura para tablets */
+        height: 30vh; /* Reduce la altura para tablets */
     }
 
     video {
@@ -102,18 +111,16 @@ video {
 
     h1 {
         font-size: 2rem; /* Reduce ligeramente el tamaño del texto */
-        margin-bottom: 15px; /* Reduce espacio entre elementos */
+        margin-bottom: 5rem; /* Reduce espacio entre elementos */
     }
 
-    /* Otros ajustes específicos para mobile */
-    body {
-        padding: 0 10px; /* Agrega un margen interno para mejorar la legibilidad */
-    }
 }
-/* Ajustes para pantallas de 450px o menos */
-@media (max-width: 450px) {
-    figure {
-        height: 40vh;
+
+/* Ajustes para pantallas grandes*/
+@media (max-width: 990px) {
+   
+    body {
+        padding: 0 10px; /* Agrega un margen interno para mejorar la legibilidad */  
     }
 }
 
