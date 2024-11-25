@@ -25,6 +25,54 @@ video {
 
 
 
+/* Estilos para las tarjetas (cards) */
+.card {
+    border: none; /* Elimina el borde por defecto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efecto de transición */
+    background-color: #fff; /* Fondo blanco */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Efecto de elevar la tarjeta */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
+}
+
+/* Imágenes de las tarjetas */
+.card-img-top {
+    height: 200px; /* Fija la altura de la imagen */
+    object-fit: cover; /* Asegura que la imagen cubra el área sin distorsión */
+    border-radius: 5px 5px 0 0; /* Bordes redondeados en la parte superior */
+}
+
+/* Listas dentro de las tarjetas */
+.list-group-item {
+    background-color: #f8f9fa;
+    border: none; /* Elimina el borde */
+}
+
+/* Estilos de los enlaces dentro de las tarjetas */
+.card-body .card-link {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.card-body .card-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Espaciado entre las filas de tarjetas */
+.row {
+    margin-bottom: 20px;
+}
+
+/* Estilos para los márgenes entre las tarjetas */
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+} 
+
 
 
 /* Ajustes para pantallas de 760px o menos */
@@ -69,3 +117,4 @@ video {
         height: 40vh;
     }
 }
+
