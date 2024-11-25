@@ -11,6 +11,11 @@ figure {
     position: relative;
     overflow: hidden;
 }
+figure img {
+    width: 100%; /* Ajusta el ancho al contenedor */
+    height: auto; /* Ajusta la altura al contenedor */
+    object-fit: contain;
+}
 
 video {
     width: 100%; /* Ajusta el ancho al contenedor */
