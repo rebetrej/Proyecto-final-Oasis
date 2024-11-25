@@ -11,9 +11,14 @@
 
 </head>
 <body>
+<<<<<<< HEAD
+<header>
+     <nav class="navbar navbar-expand-lg  bg-dark border-bottom border-body" data-bs-theme="dark">
+=======
     <header>
          <!-- Menu con Bootstrap -->
         <nav class="navbar navbar-expand-lg  bg-dark border-bottom border-body" data-bs-theme="dark">
+>>>>>>> d08e3dc80bae0abf306ce9c7fd33c2bc144a8e0c
           <div class="p-2">
             <a class="navbar-brand" href="#">
               <img src="../imagenes/logodos.jpeg" alt="Bootstrap" width="100" height="100">
@@ -21,7 +26,7 @@
           </div>
           </div>
           <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
               aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -31,13 +36,13 @@
                   <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="../story/historia.html">Story</a>
+                  <a class="nav-link" href="../story/index.html">Story</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Discografia
                   </a>
-                  <ul class="dropdown-menu">
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li><a class="dropdown-item" href="../discografia/index.html">Discografia</a></li>
                     <li><a class="dropdown-item" href="../discografia/novedades.html">Novedades</a></li>
                   </ul>
@@ -49,9 +54,9 @@
                   <a class="nav-link" href="../tour/index.html">Tour Live '25</a>
                 </li>
                 <li class=" nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  <a class="nav-link dropdown-toggle" href="#" role="button" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true"
                     aria-expanded="false">Contacto</a>
-                  <ul class="dropdown-menu">
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li><a class="dropdown-item" href="../contacto/index.html">Formulario</a></li>
                     <li><a class="dropdown-item" href="../contacto/desarrolladoras.html">Desarrolladoras</a></li>
                   </ul>
@@ -319,5 +324,9 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </div>
+
+<footer class="text-center text-light bg-dark">
+    <p>©2024 OasisProyect. Todos los derechos reservados.</p>
+  </footer>
 </body>
 </html>
